@@ -41,6 +41,7 @@
         self.saveOnBlur = function saveOnBlur() {
             event.target.contentEditable = 'false';
         };
+        
 
     });
 
