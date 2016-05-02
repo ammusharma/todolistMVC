@@ -1,0 +1,54 @@
+[ng\:cloak],
+  [ng-cloak],
+  .ng-cloak {
+    display: none !important;
+  }
+  
+  header h2 {
+    color: #FF475F;
+  }
+  
+  body {
+    margin: 5px;
+  }
+  
+  .alerts {
+    margin: 20px;
+  }
+  
+  a[ng-click] {
+    cursor: pointer;
+  }
+  
+  a[ng-click]:hover {
+    color: #FF475F;
+  }
+  
+  #todoApp {
+    margin-top: 15px;
+    padding: 5px;
+  }
+  
+  section button.btn {
+    float: right;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    color: #CCCCCC;
+  }
+  
+  span[contenteditable="true"] {
+    display: block;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin: 3px;
+  }
+  /*footer {
+    display: block;
+    overflow: hidden;
+    margin-top: -35px;
+    color: #555555;
+    background: #CCCCCC;
+  }*/
